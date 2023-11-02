@@ -16,12 +16,11 @@ const Home = () => {
         </div>
         <button className={styles.more}>Показать больше</button>
       </section>
-
       <div>
-            <Form/>
+        <Form />
       </div>
       <div>
-            <Gallery/>
+        <Gallery />
       </div>
     </main>
   );
