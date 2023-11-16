@@ -3,10 +3,12 @@ import avatar from "../../../assets/react.svg";
 const Message = () => {
   return (
     <div className={classes.messages}>
-      <h3>title</h3>
       <article>
         <img src={avatar} alt="" />
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <div>
+          <h4>title</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
       </article>
     </div>
   );
