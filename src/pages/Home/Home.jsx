@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import Card from "../../components/Card/Card";
+import Forum from "../../components/Forum/Forum";
 import Gallery from "../../components/Gallery/Gallery";
 import Header from "../../components/Header/Header";
 import Form from "../../modules/Form/Form";
@@ -22,6 +24,11 @@ const Home = () => {
       <div>
         <Gallery />
       </div>
+      <div>
+        <Forum />
+      </div>
+
+     
     </main>
   );
 };
